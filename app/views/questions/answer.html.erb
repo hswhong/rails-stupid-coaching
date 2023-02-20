@@ -1,0 +1,14 @@
+<h1>Your answer from the coach</h1>
+
+
+<div class="white-card">
+  <h3>Your dumb question</h3>
+  <%= params[:question] %>
+</div>
+
+<div class="yellow-card">
+  <h3>The great coach's answer</h3>
+  <%= @answer %>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>
